@@ -1,4 +1,4 @@
-num = int(input("Enter a range: "))
+num = int(input("Enter max range number: "))
 for fizzbuzz in range(num+1):
     if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
         print("fizzbuzz")
