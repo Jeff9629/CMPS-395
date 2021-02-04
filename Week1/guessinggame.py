@@ -4,7 +4,7 @@ low = int(input("Pick the lowest number in range: "))
 high = int(input("Pick the highest number in range: "))
 n = random.randint(low, high)
 guess = int(input("Enter a number: "))
-while n != "guess":
+while True:
   if guess < n:
     print ("Guess is low!")
     guess = int(input("Enter a number: "))
