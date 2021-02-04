@@ -4,4 +4,4 @@ for i in range(0,n):
     num=int(input("Enter temperature: "))
     a.append(num)
 avg=sum(a)/n
-print("Average of numbers:",round(avg,2))
+print("Average of temperatures:",round(avg,2))

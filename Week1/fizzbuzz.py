@@ -1,4 +1,5 @@
-for fizzbuzz in range(51):
+num = int(input("Enter a range: "))
+for fizzbuzz in range(num+1):
     if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
         print("fizzbuzz")
         continue
