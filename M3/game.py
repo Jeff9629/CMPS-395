@@ -28,7 +28,6 @@ def move():
         square(head.x, head.y, 9, 'red')
         update()
         print('Game Over! Final Score:', len(snake)-1)
-        quit()
         return
 
     snake.append(head)
@@ -59,3 +58,5 @@ onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
 move()
 done()
+
+##change dewfault head color
